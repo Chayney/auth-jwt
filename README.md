@@ -2,7 +2,10 @@
 laravelAPIを構築するための環境です。  
 
 フロントエンド構築  
-プロジェクトルートで、npm create vite@latest or npx create-react-app [ディレクトリ名] or npx create-next-app [ディレクトリ名]  
+プロジェクトルートでいずれかを構築  
+npm create vite@latest  
+npx create-react-app [ディレクトリ名]  
+npx create-next-app [ディレクトリ名]  
 
 クロスサイトオリジン設定  
 laravel/config/cors.php  
