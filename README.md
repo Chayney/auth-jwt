@@ -24,7 +24,7 @@ $docker-compose exec php bash
 ### PHPコンテナ内
 $composer install
 
-### src上
+### laravel上
 $cp .env.example .env
 
 ### PHPコンテナ内
