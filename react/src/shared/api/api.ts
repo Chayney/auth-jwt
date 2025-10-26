@@ -1,0 +1,5 @@
+export const BASE_API_URL = import.meta.env.VITE_REACT_APP_API_URL;
+
+export const defaultHeaders = {
+    'Content-Type': 'application/json'
+}
