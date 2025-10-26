@@ -1,21 +1,22 @@
-# laravel-api  
-laravelAPIを構築するための環境です。  
+# Todoアプリ  
+laravelAPIとReactのViteを繋いだ環境です。  
+ダミーデータとTodo一覧を取得するAPIは既に用意されています。  
 
-フロントエンド構築  
-プロジェクトルートでいずれかを構築  
-npm create vite@latest  
-npx create-react-app [ディレクトリ名]  
-npx create-next-app [ディレクトリ名]  
+## 技術構成  
+### フロントエンド  
+・typescript  
+・react  
+・react-dom  
+・react-route  
+・react-hook-form  
+・zod  
+・@hookform/resolvers  
+・@tanstack/react-query  
+・@fortawesome/react-fontawesom  
+・@fortawesome/free-solid-svg-icons  
 
-クロスサイトオリジン設定  
-laravel/config/cors.php  
-'allowed_origins' => ['http://localhost:3000'], // Next.jsのURL  
-'allowed_origins' => ['http://localhost:5173'], // React(vite)のURL  
-'allowed_origins' => ['http://localhost:3000'], // React(CRA)のURL  
-
-フロントエンドからAPIを取得  
-http://localhost/api/  
-api/以降のパスはご自身で設定してください。
+### バックエンド  
+・laravel  
 
 ## 環境構築
 
@@ -33,7 +34,12 @@ $cp .env.example .env
 ### PHPコンテナ内
 $php artisan key:generate  
 $php artisan migrate  
+$php artisan db:seed  
+
+### react上  
+$cp .env.example .env  
 
 ## URL
-・開発環境: http://localhost    
-・phpMyAdmin: http://localhost:8080/
+・laravel-api: http://localhost/api    
+・phpMyAdmin: http://localhost:8080  
+・vite: http://localhost:5173
