@@ -21,7 +21,7 @@ laravelAPIとReactのViteを繋いだ環境です。
 ## 環境構築
 
 ### コマンドライン上
-$git clone https://github.com/Chayney/laravel-api.git  
+$git clone https://github.com/Chayney/todo-getonly.git  
 $docker-compose up -d --build  
 $docker-compose exec php bash
 
@@ -40,6 +40,6 @@ $php artisan db:seed
 $cp .env.example .env  
 
 ## URL
-・laravel-api: http://localhost/api    
+・laravel-api: http://localhost/api/todos    
 ・phpMyAdmin: http://localhost:8080  
 ・vite: http://localhost:5173
