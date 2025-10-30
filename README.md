@@ -17,6 +17,7 @@ laravelAPIとReactのViteを繋いだ環境です。
 
 ### バックエンド  
 ・laravel  
+・tymon/jwt-auth  
 
 ## 環境構築
 
