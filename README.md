@@ -2,6 +2,12 @@
 laravelAPIとReactのViteを繋いだ環境です。  
 ダミーデータとTodo一覧を取得するAPIは既に用意されています。  
 
+## 認証方式  
+JWTトークン認証  
+https://manabupanda.net/practice_web_programming/php_laravel/laravel-react-jwt-authentication/  
+
+フロントエンドはlocalStorageでトークンを保持  
+
 ## 技術構成  
 ### フロントエンド  
 ・typescript  
