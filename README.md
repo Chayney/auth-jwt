@@ -28,7 +28,7 @@ https://manabupanda.net/practice_web_programming/php_laravel/laravel-react-jwt-a
 ## 環境構築
 
 ### コマンドライン上
-$git clone https://github.com/Chayney/todo-getonly.git  
+$git clone https://github.com/Chayney/auth-jwt.git  
 $docker-compose up -d --build  
 $docker-compose exec php bash
 
