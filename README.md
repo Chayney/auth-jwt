@@ -55,5 +55,5 @@ $cp .env.example .env
 ・laravel-api: http://localhost/api/todos    
 ・phpMyAdmin: http://localhost:8080  
 ・ユーザー登録ページ: http://localhost:5173/signup  
-・ログインページ: http://localhost:5173/login 
+・ログインページ: http://localhost:5173/login  
 ・1ユーザーのTodoリスト一覧ページ: http://localhost:5173/todos  
