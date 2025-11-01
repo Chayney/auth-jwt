@@ -15,6 +15,7 @@ class TodosTableSeeder extends Seeder
     public function run()
     {
         $param = [
+            'user_id' => 1,
             'title' => 'Todo1',
             'content' => 'Todo1 Content',
             'created_at' => now(),
@@ -22,6 +23,7 @@ class TodosTableSeeder extends Seeder
         ];
         DB::table('todos')->insert($param);
         $param = [
+            'user_id' => 1,
             'title' => 'Todo2',
             'content' => 'Todo2 Content',
             'created_at' => now(),

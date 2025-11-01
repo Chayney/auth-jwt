@@ -1,10 +1,19 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+}
+
 .title {
     padding-left: 70px;
     color: #fff;
+    font-size: 30px;
 }
 
 .nav {
-    width: 100%;
+    width: 50%;
 }
 
 .ul {
@@ -15,4 +24,20 @@
 
 .li {
     list-style-type: none;
+}
+
+.button {
+    display: block;
+    background-color: #fff;
+    text-decoration: none;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: none;
+}
+
+.button:hover {
+    background-color: #d8d8d8;
 }

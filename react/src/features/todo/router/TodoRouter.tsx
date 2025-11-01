@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom"
-import { NAVIGATION_LIST } from "../constants/navigation"
-import { TodoListPage } from "../pages/TodoListPage"
+import { NAVIGATION_LIST } from "../../../shared/constants/navigation"
+import { TodoListPage } from "../../../pages/TodoListPage"
 
 export const TodoRouter = () => {
     return (
