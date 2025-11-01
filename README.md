@@ -47,7 +47,13 @@ $php artisan db:seed
 ### react上  
 $cp .env.example .env  
 
+## ダミーユーザー  
+・email: test@example.com  
+・password: password
+
 ## URL
 ・laravel-api: http://localhost/api/todos    
 ・phpMyAdmin: http://localhost:8080  
-・vite: http://localhost:5173
+・ユーザー登録ページ: http://localhost:5173/signup  
+・ログインページ: http://localhost:5173/login 
+・1ユーザーのTodoリスト一覧ページ: http://localhost:5173/todos  
